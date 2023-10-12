@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 248, 250);
+}
+.table{
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+table{
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+    border-collapse: collapse;
+    border-bottom: 2px solid  rgb(0, 207, 138);
+    font-family: 'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+thead{
+    background-color: rgb(0, 207, 138);
+    padding: 25px 15px;
+    color: white;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+thead tr th{
+    padding: 5px;
+    
+}
+
+table tbody tr td{
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+}
+table tbody tr:hover{
+    background-color: rgb(250, 250, 250);
+    color:  rgba(7, 187, 127, 0.897);
+}
