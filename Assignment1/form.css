@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(241, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgb(0,0,0,0.1);
+}
+.head{
+    text-align: center;
+}
+.box{
+    
+    border: dashed gray 1px;
+    padding: 0 35px;
+    
+}
+form{
+    margin: 25spx 0;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+select{
+    background-color: lightgray;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-appearance:none !important;
+    -webkit-appearance: none !important; 
+    appearance: none !important;
+    background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+    background-position: calc(100% - 0.75rem) center !important;
+    padding-right: 2rem !important;
+}
+/*select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+  */
